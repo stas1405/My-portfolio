@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<title>Framework Test Page</title>
+		<link rel="stylesheet" href="css/style.css">
+		<link rel="stylesheet" href="css/bootstrap.min.css">
+		<link rel="stylesheet" href="css/bootstrap-theme.min.css">
+		<link href="https://fonts.googleapis.com/css?family=Lato:300,100' rel='stylesheet">
+		<script src="js/jquery-2.1.4.min.js"></script>
+		<script src="js/bootstrap.min.js"></script>
+		<script src="js/enquire.min.js"></script>
+		<script src="js/mediaQueries.js"></script>
+	</head>
+
+	<body>
+		<div class="container-fluid">
+			<div class="row">
+				<div class="col-md-6">
+					<img src="images/logo.jpg" class="img-responsive img-circle title-logo" alt="my logo">
+				</div>
+				<div class="col-md-6 text-right text-uppercase">
+					<h1 class="title-super text-muted">Yartsev Stanislav</h1>
+					<h3 class="title-super">Permanent Student</h3>
+				</div>	
+				<div class="row">
+				</div>
+				<div class="col-md-12">
+					<hr class="hr">
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-md-12">
+					<img src="images/surface.jpg" class="img-responsive" alt="surface" >
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-md-12">
+					<h4 class="text-muted">Featured works(clickable)</h4>
+				</div>
+			</div>
+
+			<!-- Featured works -->
+			<div class="row text-center">
+				<div class="col-md-3">
+					<img src="images/sunset.jpg" class="img-responsive center-block" alt="sunset"  data-toggle="modal" data-target="#sunSetModal">
+					<h5 class="text-uppercase">Sunset</h5>
+				</div>
+				<div class="col-md-3">
+					<img src="images/fisherman.jpg" class="img-responsive center-block" alt="fisherman" data-toggle="modal" data-target="#fisherManModal">
+					<h5 class="text-uppercase">Fisherman</h5>
+				</div>
+				<div class="col-md-3">
+					<img src="images/white_night.jpg" class="img-responsive center-block" alt="night lake"
+					data-toggle="modal" data-target="#nightLakeModal">
+					<h5 class="text-uppercase">Night lake</h5>
+				</div>
+				<div class="col-md-3">
+					<img src="images/french_toast.jpg" class="img-responsive center-block" alt="French toast" data-toggle="modal" data-target="#frenchToastModal">
+					<h5 class = "text-uppercase">French toast</h5>
+				</div>
+			</div>
+		</div>
+
+		<!-- Sunset Modal -->
+		<div class="modal fade" id="sunSetModal" tabindex="-1" role="dialog" aria-labelledby="sunsetModalLabel" aria-hidden="true">
+			<div class="modal-dialog">
+				<div class="modal-content">
+					<div class="modal-header">
+						<h4 class="modal-title" id="sunsetModalLabel">Sunset</h4>
+					</div>
+					<div class="modal-body">
+						<img src="images/sunset.jpg" class="img-responsive" alt="sunset">
+						This picture was captured on a beautifull middeterian seashore.  
+					</div>
+					<div class="modal-footer">
+						<button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<!-- Fisherman Modal -->
+		<div class="modal fade text-muted" id="fisherManModal" tabindex="-1" role="dialog" aria-labelledby="fishermanModalLabel" aria-hidden="true">
+			<div class="modal-dialog">
+				<div class="modal-content">
+					<div class="modal-header">
+						<h4 class="modal-title" id="fishermanModalLabel">Fisherman</h4>
+					</div>
+					<div class="modal-body">
+						<img src="images/fisherman.jpg" class="img-responsive" alt="fisherman">
+						One day of fishing on Meddeterian Sea. 
+					</div>
+					<div class="modal-footer">
+						<button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<!-- Night Lake Modal -->
+		<div class="modal fade" id="nightLakeModal" tabindex="-1" role="dialog" aria-labelledby="nightlakeModalLabel" aria-hidden="true">
+			<div class="modal-dialog">
+				<div class="modal-content">
+					<div class="modal-header">
+						<h4 class="modal-title" id="nightlakeModalLabel">Night Lake</h4>
+					</div>
+					<div class="modal-body">
+						<img src="images/white_night.jpg" class="img-responsive" alt="nightlake">
+						Amazing smooth and polished surface of Ladoga lake in Russia.  
+					</div>
+					<div class="modal-footer">
+						<button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<!-- French Toast Modal -->
+		<div class="modal fade" id="frenchToastModal" tabindex="-1" role="dialog" aria-labelledby="frenchtoastModalLabel" aria-hidden="true">
+			<div class="modal-dialog">
+				<div class="modal-content">
+					<div class="modal-header">
+						<h4 class="modal-title" id="frenchtoastModalLabel">French Toast</h4>
+					</div>
+					<div class="modal-body">
+						<img src="images/french_toast.jpg" class="img-responsive" alt="frenchToast">
+						Delicious and unforgetable breakfast at the seashore restaurant of Tel-Aviv.  
+					</div>
+					<div class="modal-footer">
+						<button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+					</div>
+				</div>
+			</div>
+		</div>
+	</body>
+</html>

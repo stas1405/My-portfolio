@@ -1,0 +1,49 @@
+	body,
+	html{
+		font-weight: 100;
+		margin: 2%;
+		background-color: #d8d3d6;
+	}
+
+	.container-fluid {
+		background-color: #d8d3d6;
+	}
+
+	.col-md-6 {
+		font-family: "Lato", sans-serif;
+		color: #747704;
+	}
+
+	.col-md-12 {
+		font-family: "Lato", sans-serif;
+		color: #747704;
+	}
+
+	img,
+	object,
+	video {
+		width: 100%;
+	}
+
+	.text-muted {
+		color: #bcbbbb;
+	}
+
+	.text-thin {
+		font-weight: 100;
+	}
+
+	.title-super {
+		font-weight: normal;
+	}
+
+	.title-logo {
+		margin-top: 20px;
+		width: 20%;
+		margin-bottom: 29px;
+	}
+
+	.hr {
+		border-top: 2px solid #754f4f;
+	}
+
